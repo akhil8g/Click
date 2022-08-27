@@ -1,4 +1,4 @@
-let counter=//localStorage.getItem('counter') || 0;
+let counter=localStorage.getItem('counter') || 0;
 document.querySelector("#n").innerHTML=counter;
 function updateClicks() {
     counter++;
