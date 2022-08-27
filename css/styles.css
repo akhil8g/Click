@@ -23,17 +23,9 @@
 	top:1px;
 }
 
-#clicks {
-    visibility: hidden;
-	color: white;
-}
 body {
 	text-align: center;
 	background-color: #2d2e29;
-}
- 
-.rbutton {
-	margin: 200px;
 }
 
 .reveal {
@@ -49,11 +41,16 @@ body {
 
 h1 {
 	color: white;
-	font-size: 100px;
+	font-size: 625%;
+}
+
+#clicks {
+    visibility: hidden;
+	color: white;
 }
 
 .reset {
 	display: block;
 	margin: auto;
-	margin-bottom: 5px;
+	margin-bottom: 1.25%;
 }
