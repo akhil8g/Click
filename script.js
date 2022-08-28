@@ -5,7 +5,7 @@ function updateClicks() {
     document.querySelector("#n").innerHTML=counter;
     document.querySelector(".iframe-container").style.display="block";
     localStorage.setItem('counter',counter);
-    document.getElementsByTagName('video')[0].play();
+    document.getElementsByTagName('iframe')[0].play();
 }
 
 let a=0;
